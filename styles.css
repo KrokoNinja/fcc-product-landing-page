@@ -16,6 +16,20 @@ main {
     color: black;
 }
 
+.svg-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 32px;
+}
+
+.info-wrapper {
+    width: 100%;
+}
+
+.feature {
+    display: flex;
+}
+
 #header {
     display: flex;
     justify-content: space-between;
@@ -51,8 +65,14 @@ main {
 
 #submit {
     padding: 5px 20px;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 1rem;
     background-color: #eac645;
     border: none;
+}
+
+#features {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
 }
