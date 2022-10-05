@@ -13,6 +13,14 @@ main {
 	margin-top: 85px;
 }
 
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 0 0 10px 0;
+}
+
 .nav-link {
 	text-decoration: none;
 	color: black;
@@ -32,6 +40,42 @@ main {
 .info-wrapper {
 	width: 100%;
     padding: 25px;
+}
+
+.package {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.package-heading {
+    background-color: #dddddd;
+    font-size: 1rem;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.package-heading, .price, .package-list {
+    text-align: center;
+    padding: 15px;
+}
+
+.package-submit {
+    background-color: #eac645;
+    border: none;
+    padding: 10px 20px;
+    margin: 0  auto 20px auto;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.package-submit:hover {
+    background-color: #ffa500;
+    transition: ease-in 500ms;
 }
 
 #header {
@@ -89,4 +133,10 @@ main {
     display: flex;
     justify-content: center;
     margin-top: 25px;
+}
+
+#pricing {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px 0;
 }
