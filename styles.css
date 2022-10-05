@@ -144,10 +144,9 @@ li {
 }
 
 #pricing {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: block;
+    width: 90%;
     margin: 0 auto;
-    max-width: 900px;
 }
 
 #footer{
@@ -167,4 +166,13 @@ li {
 
 #copyright {
     color: #414141;
+}
+
+@media  (min-width: 800px) {
+    #pricing {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 auto;
+        max-width: 900px;
+    }
 }
