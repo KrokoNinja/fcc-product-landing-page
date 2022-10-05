@@ -109,6 +109,7 @@ li {
 
 #start {
 	text-align: center;
+    margin-bottom: 50px;
 }
 
 #heading {
@@ -131,25 +132,28 @@ li {
 
 #features {
 	width: 90%;
+    max-width: 950px;
 	margin: 0 auto;
-	margin-top: 75px;
 }
 
 #how_it_works {
     display: flex;
     justify-content: center;
     margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 #pricing {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 50px 0;
+    margin: 0 auto;
+    max-width: 900px;
 }
 
 #footer{
     background-color: #dddddd;
     text-align: end;
+    margin-top: 50px;
 }
 
 #footer-wrapper {
