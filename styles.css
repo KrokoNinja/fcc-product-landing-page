@@ -78,6 +78,12 @@ li {
     transition: ease-in 500ms;
 }
 
+.footer-link {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
 #header {
 	display: flex;
 	justify-content: space-between;
@@ -139,4 +145,22 @@ li {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 50px 0;
+}
+
+#footer{
+    background-color: #dddddd;
+    text-align: end;
+}
+
+#footer-wrapper {
+    padding: 20px;
+}
+
+#footer-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#copyright {
+    color: #414141;
 }
