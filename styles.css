@@ -25,6 +25,7 @@ li {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 .nav-link {
@@ -33,9 +34,7 @@ li {
 }
 
 .svg-wrapper {
-	display: flex;
-	align-items: center;
-	margin: 32px;
+	display: none
 }
 
 .feature {
@@ -46,6 +45,7 @@ li {
 .info-wrapper {
 	width: 100%;
     padding: 25px;
+    text-align: center;
 }
 
 .package {
@@ -150,8 +150,10 @@ li {
 }
 
 #pricing {
-    display: block;
-    width: 90%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 0 auto;
 }
 
@@ -180,7 +182,7 @@ li {
     }
 
     .img-wrapper {
-        justify-content: flex-start;
+        width: 300px;
     }
 
     #header {
@@ -197,6 +199,7 @@ li {
 
     #nav-bar {
         display: flex;
+        flex-direction: row;
         align-items: center;
         width: 40%;
         justify-content: space-evenly;
@@ -211,5 +214,14 @@ li {
 }
 
 @media (min-width: 600px) {
-    
+    .svg-wrapper {
+        display: flex;
+        align-items: center;
+        margin: 32px;
+    }
+
+    .info-wrapper {
+        width: 100%;
+        padding: 25px;
+    }
 }
